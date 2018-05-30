@@ -1,0 +1,374 @@
+header{
+    background-color: #fff;
+    border: #cccccc 1px solid;
+    width: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.Name{
+    float: left;
+    margin-left:50px;
+    background-color: #4aaaa5;
+    color: white;
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 200px;
+    bottom: 0px;
+}
+
+#text{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 14pt;
+
+}
+
+.Nav {
+    height: 100%;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    position: absolute;
+    right: 10%;
+    float: left;
+}
+
+a:link{
+    text-decoration: none;
+    color: #777777;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #777777;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;    
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #4aaaa5;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;    
+}
+
+.About {
+    float: left;
+    border-right: #777777 1px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 35px;
+}
+
+.Portfolio{
+    float: left;
+    border-right: #777777 1px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 35px;
+}
+
+.Contact{
+    float: left;
+    border-right: #777777 1px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 35px;
+}
+
+body{
+    background-color: whitesmoke;
+    margin:0px;
+}
+
+.Box{
+    width: 960px;
+    margin-left: 50px;
+    background-color: #ffffff;
+    border: whitesmoke 1px solid;
+    float:left;
+    clear:both;
+    padding-bottom: 10px;
+}
+
+.MainTitle{
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 14pt;
+    border-bottom: #666666 1px solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.content{
+    color: #777777;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type=text2], select {
+    width: 100%;
+    height: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headshot{
+    height:150px;
+    width:75px;
+    margin: 15px;
+    float:left;
+}
+
+.bio{
+    color: #777777;
+    line-height: 18pt;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer{
+    background-color: #666666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-top: #4aaaa5 5px solid;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    padding-top: 30px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 7pt;
+}
+
+.Images{
+    float:left;
+    width:auto;
+    margin-left:15px;
+    margin-top: 25px;
+    clear: both;
+}
+
+.Img1{
+    border: solid #dddddd 1px;
+    width: 200px;
+    height: 150px;
+    float: left;
+    position: relative;
+}
+
+.Img2{
+    border: solid #dddddd 1px;
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left:25px;
+    margin-right:500px;
+    position: relative;
+}
+
+.Img3{
+    border: solid #dddddd 1px;
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-top: 25px;
+    position: relative;
+}
+
+.Img4{
+    border: solid #dddddd 1px;
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left:25px;
+    margin-top: 25px;
+    margin-right:500px;
+    position: relative;
+}
+
+.Img5{
+    border: solid #dddddd 1px;
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-top: 25px;
+    position: relative;
+}
+
+.banner{
+    background-color: #4aaaa5;
+    width: 200px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 80%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 980px){
+    .Box{
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 768px){ 
+    .Box{
+        margin-left: 2.5%;
+        width: 95%;
+        margin-right: 2.5%;
+    }
+}
+@media screen and (max-width: 640px){
+    .Name {
+        width: 100%;
+        height: 75px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .Nav{
+        width: 100%;
+        height: 25px;
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        background-color: #ffffff;
+        right: 0px;
+    }
+
+    .About{
+        margin-left: 20%;
+    }
+
+    header{
+    position: static;
+    left: 0px;
+    top: 0px;
+    height: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 120px;
+    padding: 0px;
+    }
+    
+    .Box{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.55%;
+    }
+
+    .Img1{
+        border: solid #dddddd 1px;
+        width: 200px;
+        height: 150px;
+        float: left;
+        position: relative;
+    }
+    
+    .Img2{
+        border: solid #dddddd 1px;
+        width: 200px;
+        height: 150px;
+        float: left;
+        margin-left:0px;
+        margin-right:0px;
+        position: relative;
+    }
+    
+    .Img3{
+        border: solid #dddddd 1px;
+        width: 200px;
+        height: 150px;
+        float: left;
+        margin-top: 25px;
+        position: relative;
+    }
+    
+    .Img4{
+        border: solid #dddddd 1px;
+        width: 200px;
+        height: 150px;
+        float: left;
+        margin-left:0px;
+        margin-top: 25px;
+        margin-right:0px;
+        position: relative;
+    }
+    
+    .Img5{
+        border: solid #dddddd 1px;
+        width: 200px;
+        height: 150px;
+        float: left;
+        margin-top: 25px;
+        position: relative;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        margin-top: 50px;
+    }
+}
